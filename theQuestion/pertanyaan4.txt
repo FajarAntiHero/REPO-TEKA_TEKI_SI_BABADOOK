@@ -1,0 +1,5 @@
+Kamu harus pergi ke pusat desa untuk sebuah keperluan,
+desa itu lumayan jauh dari tempat asal mu.
+
+kamu harus menentukan jalan tercepat untuk mencapai kedesa itu,
+supaya kamu sampai disana sebelum sore tiba.
