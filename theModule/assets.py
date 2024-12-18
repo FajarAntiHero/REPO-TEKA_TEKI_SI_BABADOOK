@@ -1,4 +1,6 @@
 import os
+import time as tm
+# from .karakter import pemain
 
 def name():
     inputNama = str(input("Masukkan Nama Karakter : "))
@@ -52,6 +54,14 @@ def openDocument(path):
             print(content)
     except:
         print("File tidak ditemukan!")
+
+def jeda(waktu : int) -> None:
+    print("Tunggu")
+    tm.sleep(waktu)
+    print("...")
+    tm.sleep(waktu)
+    print("...")
+    tm.sleep(waktu)
 
 # def openBigDocument(path):
 #     try:
@@ -365,7 +375,20 @@ def lore5(firstJawaban, secondJawaban, thirdJawaban, fourthJawaban, fifthJawaban
     elif firstJawaban == "4" and secondJawaban == "5" and thirdJawaban == "3" and fourthJawaban == "5" and fifthJawaban == "3":
         openDocument(listPathLore[4])
 
-
+def gameLost():
+    garis = line()
+    judul = title()
+    clearTerminal()
+    print(garis.duaGaris())
+    print(judul.theTitle("Anda Kalah"))
+    print(garis.satuGaris())
+    print("")
+    print("{:^80}".format("Babadook berhasil mengalahkan dan menipu kamu"))
+    print("{:^80}".format("Kamu harus bangkit lagi untuk mengalahkan Babadook"))
+    print("")
+    print(garis.duaGaris())
+    jeda(1)
+    pass
 
 #=================================== CLASS =======================================
 class line:
@@ -406,11 +429,14 @@ class title:
         judulAnswer = "{:^80}".format(f"Pilih Jawaban!")
         return judulAnswer
     def endTitle(self):
-        judulEnd = "{:^80}".format(f"terimakasih".upper())
+        judulEnd = "{:^80}".format(f"Permainan Teka teki si babadook".upper())
         return judulEnd
     def storyChapterTitle(self, chapter):
         judulChapter = "{:^80}".format(f"chapter {chapter}".upper())
         return judulChapter
+    def theTitle(self, nameTitle : str) -> str:
+        judul = "{:^80}".format(nameTitle.upper())
+        return judul
     
 
 

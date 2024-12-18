@@ -1,11 +1,24 @@
 from . import karakter as kr
 from . import assets as ast
+from . import peraturan as prt
 
 garis = ast.line()
 judul = ast.title()
 
 def permainan():
-    kr.inputKarakter()
+    karakterUtama = kr.inputKarakter()
+    ast.next()
+
+    ast.clearTerminal()
+    print(garis.duaGaris())
+    print(judul.characterTitle())
+    print(garis.duaGaris())
+    print("")
+    print(f"Nama Karakter : {karakterUtama.getName}")
+    print(f"Tinggi Karakter : {karakterUtama.getTinggi} cm")
+    print(f"Jenis Kelamin Karakter : {karakterUtama.getKelamin}")
+    print("")
+    print(garis.satuGaris())
 
     while True:
         startGame = str(input("Mulai Game! [Y] : "))
@@ -13,6 +26,11 @@ def permainan():
             break
         else:
             print("Data yang dimasukkan tidak sesuai. Ulangi Kembali!")
+
+    print(garis.satuGaris())
+    ast.jeda(1)
+
+    prt.peraturanSingkat()
 
     
     while True:
@@ -78,11 +96,17 @@ def permainan():
             print(garis.satuGaris())
 
             ast.next()
+            print(garis.satuGaris())
+            ast.jeda(1)
             ast.clearTerminal()
         else:
             print(garis.satuGaris())
             ast.afterJawaban1(jawaban1)
             print(garis.satuGaris())
+            ast.next()
+            print(garis.satuGaris())
+            ast.jeda(1)
+            ast.gameLost()
             ast.next()
             break
 
@@ -149,11 +173,17 @@ def permainan():
             print(garis.satuGaris())
 
             ast.next()
+            print(garis.satuGaris())
+            ast.jeda(1)
             ast.clearTerminal()
         else:
             print(garis.satuGaris())
             ast.afterJawaban2(jawaban2)
             print(garis.satuGaris())
+            ast.next()
+            print(garis.satuGaris())
+            ast.jeda(1)
+            ast.gameLost()
             ast.next()
             break
 
@@ -221,11 +251,17 @@ def permainan():
             print(garis.satuGaris())
 
             ast.next()
+            print(garis.satuGaris())
+            ast.jeda(1)
             ast.clearTerminal()
         else:
             print(garis.satuGaris())
             ast.afterJawaban3(jawaban3)
             print(garis.satuGaris())
+            ast.next()
+            print(garis.satuGaris())
+            ast.jeda(1)
+            ast.gameLost()
             ast.next()
             break
 
@@ -290,11 +326,17 @@ def permainan():
             print(garis.satuGaris())
 
             ast.next()
+            print(garis.satuGaris())
+            ast.jeda(1)
             ast.clearTerminal()
         else:
             print(garis.satuGaris())
             ast.afterJawaban4(jawaban4)
             print(garis.satuGaris())
+            ast.next()
+            print(garis.satuGaris())
+            ast.jeda(1)
+            ast.gameLost()
             ast.next()
             break
 
@@ -360,11 +402,17 @@ def permainan():
             print(garis.satuGaris())
 
             ast.next()
+            print(garis.satuGaris())
+            ast.jeda(1)
             ast.clearTerminal()
         else:
             print(garis.satuGaris())
             ast.afterJawaban5(jawaban5)
             print(garis.satuGaris())
+            ast.next()
+            print(garis.satuGaris())
+            ast.jeda(1)
+            ast.gameLost()
             ast.next()
             break
 
