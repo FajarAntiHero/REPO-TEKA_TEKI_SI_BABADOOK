@@ -5,7 +5,7 @@ garis = line()
 judul = title()
 peraturanPertama : str = "Permainan akan berisi banyak cerita"
 peraturanKedua : str = "Pertanyaan teka teki akan menjebak"
-peraturanKetiga : str = "JIka anda gagal menjawab teka tekI, permainan akan selesai"
+peraturanKetiga : str = "Jika anda gagal menjawab teka teki, permainan akan selesai"
 peraturanKeempat : str = "Setiap jawaban yang benar akan memberikan sebuah kejutan"
 
 jumlahPeraturan : list = [peraturanPertama, peraturanKedua, peraturanKetiga, peraturanKeempat]

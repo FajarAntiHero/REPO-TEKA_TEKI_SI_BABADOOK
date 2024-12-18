@@ -104,10 +104,10 @@ def permainan():
             ast.afterJawaban1(jawaban1)
             print(garis.satuGaris())
             ast.next()
-            print(garis.satuGaris())
-            ast.jeda(1)
             ast.gameLost()
             ast.next()
+            print(garis.satuGaris())
+            ast.jeda(1)
             break
 
         #===== SLEEP =======
@@ -181,10 +181,10 @@ def permainan():
             ast.afterJawaban2(jawaban2)
             print(garis.satuGaris())
             ast.next()
-            print(garis.satuGaris())
-            ast.jeda(1)
             ast.gameLost()
             ast.next()
+            print(garis.satuGaris())
+            ast.jeda(1)
             break
 
         #====== SLEEP =======
@@ -259,10 +259,10 @@ def permainan():
             ast.afterJawaban3(jawaban3)
             print(garis.satuGaris())
             ast.next()
-            print(garis.satuGaris())
-            ast.jeda(1)
             ast.gameLost()
             ast.next()
+            print(garis.satuGaris())
+            ast.jeda(1)
             break
 
         #======================== CHAPTER FOUR ========================
@@ -334,10 +334,10 @@ def permainan():
             ast.afterJawaban4(jawaban4)
             print(garis.satuGaris())
             ast.next()
-            print(garis.satuGaris())
-            ast.jeda(1)
             ast.gameLost()
             ast.next()
+            print(garis.satuGaris())
+            ast.jeda(1)
             break
 
 
@@ -410,13 +410,44 @@ def permainan():
             ast.afterJawaban5(jawaban5)
             print(garis.satuGaris())
             ast.next()
-            print(garis.satuGaris())
-            ast.jeda(1)
             ast.gameLost()
             ast.next()
+            print(garis.satuGaris())
+            ast.jeda(1)
             break
 
-        break
+        #==================== BERHASIL MEMENANGKAN PERMAINAN =================
+        print(garis.duaGaris())
+        print(judul.theTitle("kamu berhasil!".upper()))
+        print(garis.duaGaris())
+        print("")
+        print("{:^80}".format("Selamat kamu telah melewati seluruh teka teki nya"))
+        print("{:^80}".format("Kamu adalah orang hebat, cerdas dan bijaksana"))
+        print("{:^80}".format("Temukan lebih banyak jawaban teka teki si Babadook"))
+        print("{:^80}".format("Sebenarnya kamu hanya menemukan beberapa jawaban saja...."))
+        print("")
+        print(garis.duaGaris())
+        ast.next()
+        ast.clearTerminal()
+        print(garis.duaGaris())
+        print(judul.theTitle("sertifikat juara".upper()))
+        print(garis.duaGaris())
+        print("")
+        print("{:^80}".format("Selamat kepada sang juara"))
+        print("")
+        print("{:^80}".format(karakterUtama.getName.upper()))
+        print("{:^80}".format("-"*len(karakterUtama.getName)))
+        print("")
+        print("{:^80}".format("Predikat untuk sang Juara"))
+        print("{:^80}".format("Pahlawan yang Berani dan Bijaksana"))
+        print("")
+        print(garis.duaGaris())
+        ast.next()
+        print(garis.satuGaris())
+        ast.jeda(1)
+
+
+        break # -> Game Berakhir
 
     
 

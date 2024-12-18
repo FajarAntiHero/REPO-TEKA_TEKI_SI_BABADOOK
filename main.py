@@ -56,16 +56,10 @@ def main():
     print(judul.endTitle())
     print(garis.duaGaris())
     print("")
-    print("{:^80}".format("terimakasih telah bermain dengan Babadook"))
+    print("{:^80}".format("Terimakasih telah bermain dengan Babadook"))
     print("{:^80}".format("Pecahkan Teka Teki Babadook untuk menyelesaikan cerita sesungguhnya"))
     print("")
     print(garis.duaGaris())
-
-
-
-
-
-
 
 
 if __name__ == "__main__": # -> Memastikan modul hanya berjalan pada modul __main__

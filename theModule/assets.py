@@ -165,8 +165,8 @@ def hasilJawaban3(jawaban):
         return hasil
     
 def afterJawaban3(thirdJawaban):
-    if thirdJawaban == "2" and thirdJawaban == "3": #True
-        openDocument(listPathAnswer[1])
+    if thirdJawaban == "2" or thirdJawaban == "3": #True
+        openDocument(listPathAnswer[2])
     # elif firstJawaban == "1" and secondJawaban == "3" and thirdJawaban == "3": #True
     #     openDocument(listPathAnswer[1])
     # elif firstJawaban == "1" and secondJawaban == "5" and thirdJawaban == "2": #True
@@ -222,9 +222,9 @@ def hasilJawaban4(jawaban):
         hasil = "benar"
         return hasil
     
-def afterJawaban4(firstJawaban, secondJawaban, thirdJawaban, fourJawaban):
+def afterJawaban4(fourJawaban):
     if fourJawaban == "4" or fourJawaban == "5": #True
-        openDocument(listPathAnswer[1])
+        openDocument(listPathAnswer[3])
     # elif firstJawaban == "1" and secondJawaban == "3" and thirdJawaban == "2" and fourJawaban == "5": #True
     #     openDocument(listPathAnswer[1])
     # elif firstJawaban == "1" and secondJawaban == "3" and thirdJawaban == "3" and fourJawaban == "4": #True
@@ -308,9 +308,9 @@ def hasilJawaban5(jawaban):
         hasil = "salah"
         return hasil
     
-def afterJawaban5(firstJawaban, secondJawaban, thirdJawaban, fourthJawaban, fifthJawaban):
+def afterJawaban5(fifthJawaban):
     if fifthJawaban == "3": #True
-        openDocument(listPathAnswer[0])
+        openDocument(listPathAnswer[4])
     # elif firstJawaban == "1" and secondJawaban == "3" and thirdJawaban == "2" and fourthJawaban == "5" and fifthJawaban == "3": #True
     #     openDocument(listPathAnswer[0])
     # elif firstJawaban == "1" and secondJawaban == "3" and thirdJawaban == "3" and fourthJawaban == "4" and fifthJawaban == "3": #True
@@ -339,7 +339,7 @@ def afterJawaban5(firstJawaban, secondJawaban, thirdJawaban, fourthJawaban, fift
     #     openDocument(listPathAnswer[0])
     # elif firstJawaban == "4" and secondJawaban == "5" and thirdJawaban == "3" and fourthJawaban == "5" and fifthJawaban == "3": #True
     #     openDocument(listPathAnswer[0])
-    elif fourthJawaban == "1" or fourthJawaban == "2" or fourthJawaban == "4" or fifthJawaban == "5": #False
+    elif fifthJawaban == "1" or fifthJawaban == "2" or fifthJawaban == "4" or fifthJawaban == "5": #False
         openDocument(listPathAnswer[9])
 
 
@@ -380,15 +380,13 @@ def gameLost():
     judul = title()
     clearTerminal()
     print(garis.duaGaris())
-    print(judul.theTitle("Anda Kalah"))
+    print(judul.theTitle("kamu gagal"))
     print(garis.satuGaris())
     print("")
     print("{:^80}".format("Babadook berhasil mengalahkan dan menipu kamu"))
     print("{:^80}".format("Kamu harus bangkit lagi untuk mengalahkan Babadook"))
     print("")
     print(garis.duaGaris())
-    jeda(1)
-    pass
 
 #=================================== CLASS =======================================
 class line:
