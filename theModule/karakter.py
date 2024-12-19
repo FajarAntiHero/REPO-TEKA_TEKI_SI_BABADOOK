@@ -22,40 +22,22 @@ class pemain:
         return kelamin
     
 garis = ast.line()
-judul = ast.title()    
+judul = ast.title()
 
-def inputKarakter():
+def inputKarakter() -> pemain:
     ast.clearTerminal()
 
     print(garis.duaGaris())
     print(judul.inputTitle())
     print(garis.duaGaris())
+    print("")
     nama = ast.name()        # Memanggil fungsi name() dari assets
     tinggi = ast.tinggi()     # Memanggil fungsi tinggi() dari assets
     jenisKelamin = ast.kelamin()  # Memanggil fungsi kelamin() dari assets
-    
+    print("")
+    print(garis.satuGaris())
 
     # Membuat objek pemain dengan nama, tinggi, dan jenis kelamin
     karakterUtama = pemain(nama, tinggi, jenisKelamin)
 
-    print(garis.satuGaris())
-    ast.next()
-
-    ast.clearTerminal()
-    print(garis.duaGaris())
-    print(judul.characterTitle())
-    print(garis.duaGaris())
-    print("")
-    print(f"Nama Karakter : {karakterUtama.getName}")
-    print(f"Tinggi Karakter : {karakterUtama.getTinggi} cm")
-    print(f"Jenis Kelamin Karakter : {karakterUtama.getKelamin}")
-    print("")
-    print(garis.satuGaris())
-
-
-"""
-class babadook:
-    def __init__(self) -> None:
-        self.__name = "Babadook"
-        self.__tinggi = 200
-"""
+    return karakterUtama
