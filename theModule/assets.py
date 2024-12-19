@@ -125,7 +125,7 @@ def lore2(firstJawaban, secondJawaban):
     if firstJawaban == "1" and secondJawaban == "3":
         openDocument(listPathLore[1])
     elif firstJawaban == "1" and secondJawaban == "5":
-        openDocument(listPathLore[6])
+        openDocument(listPathLore[1])
     elif firstJawaban == "4" and secondJawaban == "3":
         openDocument(listPathLore[1])
     elif firstJawaban == "4" and secondJawaban == "5":
@@ -207,23 +207,23 @@ def lore4(firstJawaban, secondJawaban, thirdJawaban, fourJawaban):
     elif firstJawaban == "1" and secondJawaban == "3" and thirdJawaban == "2" and fourJawaban == "5":
         openDocument(listPathLore[3])
     elif firstJawaban == "1" and secondJawaban == "3" and thirdJawaban == "3" and fourJawaban == "4":
-        openDocument(listPathLore[8])
+        openDocument(listPathLore[3])
     elif firstJawaban == "1" and secondJawaban == "3" and thirdJawaban == "3" and fourJawaban == "5":
         openDocument(listPathLore[8])
     elif firstJawaban == "1" and secondJawaban == "5" and thirdJawaban == "2" and fourJawaban == "4":
-        openDocument(listPathLore[8])
+        openDocument(listPathLore[3])
     elif firstJawaban == "1" and secondJawaban == "5" and thirdJawaban == "2" and fourJawaban == "5":
-        openDocument(listPathLore[9])
+        openDocument(listPathLore[3])
     elif firstJawaban == "1" and secondJawaban == "5" and thirdJawaban == "3" and fourJawaban == "4":
         openDocument(listPathLore[9])
     elif firstJawaban == "1" and secondJawaban == "5" and thirdJawaban == "3" and fourJawaban == "5":
-        openDocument(listPathLore[8])
+        openDocument(listPathLore[3])
     elif firstJawaban == "4" and secondJawaban == "3" and thirdJawaban == "2" and fourJawaban == "4":
         openDocument(listPathLore[10])
     elif firstJawaban == "4" and secondJawaban == "3" and thirdJawaban == "3" and fourJawaban == "4":
-        openDocument(listPathLore[8])
+        openDocument(listPathLore[3])
     elif firstJawaban == "4" and secondJawaban == "3" and thirdJawaban == "3" and fourJawaban == "5":
-        openDocument(listPathLore[7])
+        openDocument(listPathLore[3])
     elif firstJawaban == "4" and secondJawaban == "5" and thirdJawaban == "2" and fourJawaban == "4":
         openDocument(listPathLore[7])
     elif firstJawaban == "4" and secondJawaban == "5" and thirdJawaban == "2" and fourJawaban == "5":
@@ -275,7 +275,7 @@ def lore5(firstJawaban, secondJawaban, thirdJawaban, fourthJawaban, fifthJawaban
     elif firstJawaban == "1" and secondJawaban == "5" and thirdJawaban == "3" and fourthJawaban == "4" and fifthJawaban == "3":
         openDocument(listPathLore[4])
     elif firstJawaban == "1" and secondJawaban == "5" and thirdJawaban == "3" and fourthJawaban == "5" and fifthJawaban == "3":
-        openDocument(listPathLore[9])
+        openDocument(listPathLore[4])
     elif firstJawaban == "4" and secondJawaban == "3" and thirdJawaban == "2" and fourthJawaban == "4" and fifthJawaban == "3":
         openDocument(listPathLore[9])
     elif firstJawaban == "4" and secondJawaban == "3" and thirdJawaban == "3" and fourthJawaban == "4" and fifthJawaban == "3":
@@ -283,7 +283,7 @@ def lore5(firstJawaban, secondJawaban, thirdJawaban, fourthJawaban, fifthJawaban
     elif firstJawaban == "4" and secondJawaban == "3" and thirdJawaban == "3" and fourthJawaban == "5" and fifthJawaban == "3":
         openDocument(listPathLore[8])
     elif firstJawaban == "4" and secondJawaban == "5" and thirdJawaban == "2" and fourthJawaban == "4" and fifthJawaban == "3":
-        openDocument(listPathLore[11])
+        openDocument(listPathLore[4])
     elif firstJawaban == "4" and secondJawaban == "5" and thirdJawaban == "2" and fourthJawaban == "5" and fifthJawaban == "3":
         openDocument(listPathLore[12])
     elif firstJawaban == "4" and secondJawaban == "5" and thirdJawaban == "3" and fourthJawaban == "4" and fifthJawaban == "3":
