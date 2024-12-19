@@ -16,6 +16,7 @@ def story():
     for cerita in range(len(listPathFullStory)):
         ast.clearTerminal()
         
+        
         print(garis.duaGaris())
         print(judul.storyChapterTitle(cerita + 1))
         print(garis.duaGaris())
@@ -25,62 +26,5 @@ def story():
         print(garis.satuGaris())
 
         ast.next()
-       
-
-    """
-    ast.clearTerminal()
-
-    print(garis.duaGaris())
-    print(judul.storyChapterTitle(2))
-    print(garis.duaGaris())
-    print("")
-    ast.openDocument(Story2)
-    print("")
-    print(garis.satuGaris())
-
-    ast.next()
-    ast.clearTerminal()
-
-    print(garis.duaGaris())
-    print(judul.storyChapterTitle(3))
-    print(garis.duaGaris())
-    print("")
-    ast.openDocument(Story3)
-    print("")
-    print(garis.satuGaris())
-
-    ast.next()
-    ast.clearTerminal()
-
-    print(garis.duaGaris())
-    print(judul.storyChapterTitle(4))
-    print(garis.duaGaris())
-    print("")
-    ast.openDocument(Story4)
-    print("")
-    print(garis.satuGaris())
-
-    ast.next()
-    ast.clearTerminal()
-
-    print(garis.duaGaris())
-    print(judul.storyChapterTitle(5))
-    print(garis.duaGaris())
-    print("")
-    ast.openDocument(Story5)
-    print("")
-    print(garis.satuGaris())
-
-    ast.next()
-    ast.clearTerminal()
-
-    print(garis.duaGaris())
-    print(judul.storyChapterTitle(6))
-    print(garis.duaGaris())
-    print("")
-    ast.openDocument(Story6)
-    print("")
-    print(garis.satuGaris())
-
-    ast.next()
-    """
+        print(garis.satuGaris())
+        ast.jeda(1)
