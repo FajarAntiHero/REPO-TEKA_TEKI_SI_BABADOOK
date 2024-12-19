@@ -7,4 +7,4 @@ Anggota Kelompok :
     2. Farid Rahmat Alfiansyah
     3. Mohammad Diva Fajri
     4. Muhammad Nabil Adzim
-    5. Ridho Kurnia Adji
+    5. Ridho Kurnia Aji

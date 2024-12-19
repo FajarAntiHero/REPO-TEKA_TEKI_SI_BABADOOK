@@ -26,8 +26,8 @@ class pemain:
 garis = ast.line()
 judul = ast.title()
 
-class karakter(pemain):
-    pass
+# class karakter(pemain):
+#     pass
 
 def inputKarakter() -> pemain:
     ast.clearTerminal()
@@ -46,10 +46,3 @@ def inputKarakter() -> pemain:
     karakterUtama = pemain(nama, tinggi, jenisKelamin)
 
     return karakterUtama
-
-"""
-class babadook:
-    def __init__(self) -> None:
-        self.__name = "Babadook"
-        self.__tinggi = 200
-"""
