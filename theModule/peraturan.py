@@ -63,7 +63,3 @@ def peraturanPermainan() -> str:
             continue
         else:
             continue
-
-
-    
-

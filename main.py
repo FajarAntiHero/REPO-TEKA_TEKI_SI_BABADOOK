@@ -63,6 +63,4 @@ def main() -> None:
 
 
 if __name__ == "__main__": # -> Memastikan modul hanya berjalan pada modul __main__
-    main() # Menjalankan Program Utama TEKA TEKI SI BABADOOK
-
-    
+    main() # Menjalankan Program Utama TEKA TEKI SI BABADOOK 

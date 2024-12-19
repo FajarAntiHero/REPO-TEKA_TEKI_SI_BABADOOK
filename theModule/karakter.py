@@ -21,13 +21,8 @@ class pemain:
         kelamin = self.__kelamin
         return kelamin
     
-    # def 
-    
 garis = ast.line()
 judul = ast.title()
-
-# class karakter(pemain):
-#     pass
 
 def inputKarakter() -> pemain:
     ast.clearTerminal()

@@ -448,6 +448,3 @@ def permainan():
 
 
         break # -> Game Berakhir
-
-    
-
