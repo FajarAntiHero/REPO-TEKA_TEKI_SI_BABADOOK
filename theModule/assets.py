@@ -403,7 +403,7 @@ pathLoreSecret6 = "theLore/theSecret/loreS6.txt"
 pathLoreSecret7 = "theLore/theSecret/loreS7.txt"
 pathLoreSecret8 = "theLore/theSecret/loreS8.txt"
 pathLoreSecret9 = "theLore/theSecret/loreS9.txt"
-pathLoreSecret10 = "theLore/theSecret/lore10.txt"
+pathLoreSecret10 = "theLore/theSecret/loreS10.txt"
 listPathLore = [
     pathLoreDefault1, pathLoreDefault2, pathLoreDefault3, pathLoreDefault4, pathLoreDefault5, 
     pathLoreSecret1, pathLoreSecret2, pathLoreSecret3, pathLoreSecret4, pathLoreSecret5,

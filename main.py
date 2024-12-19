@@ -6,7 +6,7 @@ import os
 import theModule as tm
 
 
-def main():
+def main() -> None:
     #VARIABLE ASSETS
     garis = tm.line()
     judul = tm.title()

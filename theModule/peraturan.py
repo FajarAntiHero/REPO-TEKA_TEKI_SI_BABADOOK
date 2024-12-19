@@ -43,6 +43,7 @@ def peraturanPermainan() -> str:
             print("")
             print(garis.satuGaris())
             next()
+            print(garis.satuGaris())
 
         while True:
             lanjut = str(input("Lanjut membaca peraturan? [Y/N] : "))
@@ -56,6 +57,7 @@ def peraturanPermainan() -> str:
                 print("Input Tidak sesuai, ulangi lagi!")
 
         if result == "No":
+            jeda(1)
             break
         elif result == "Yes":
             continue
